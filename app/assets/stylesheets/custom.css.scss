@@ -1,0 +1,54 @@
+html, body {
+  background-color: black;
+  background-image: url(/assets/background2.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+img.backgroundimage {
+float: right;
+}
+
+a:link { color: #FFD700; }
+a:visited { color: #FFD700; }
+a:hover { color: #FFFF00; font-weight:bold; }
+
+ul.nav-pull-right {
+margin-top: -10px;
+margin-left: 300px;
+padding: 10px;
+list-style-type: none;
+}
+
+ul.nav-pull-right li {
+float: left;
+width: 8em;
+margin: 50px;
+padding: 2px;
+border: 1px #ffb366 solid;
+background-color: #000000;
+text-align: center;
+margin-left:0px;
+list-style-type: none;
+}
+
+ul.left {
+width: 100px;
+margin: 100px;
+padding: 50px;
+border: 1px #ffb366 solid;
+text-align: center;
+list-style-type: none;
+margin-left: 30px;
+margin-top: 80px;
+}
+
+div.container{
+  border: 1px #ffb366 solid;
+  margin-left: 265px;
+  margin-right: 240px;
+  margin-top: -370px;
+  padding: 10px;
+  color: white;
+}
+
