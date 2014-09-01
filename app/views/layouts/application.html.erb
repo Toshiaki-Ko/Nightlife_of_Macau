@@ -10,11 +10,13 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
+
   <body>
     <div class="logo">
 			<%= link_to image_tag("NightlifeofMacau.gif", alt: "Rails"), 'home'%>
     </div>
-    <nav id="top">
+
+    <nav class="top">
       <ul class="nav-pull-right">
       	<li><%= link_to "カジノの基礎知識",    '#' %></li>
         <li><%= link_to "流れ",    '#' %></li>
@@ -22,33 +24,37 @@
         <li><%= link_to "カジノ一覧", '#' %></li>
       </ul>
     </nav>
-    	<nav id="left">
-      	<ul class="left">
-      		<li>
-          	<a href="">カジノ1</a>
-        	</li>
-        	<li>
-          	<a href="">カジノ2</a>
-        	</li>
-        	<li>
-          	<a href="">カジノ3</a>
-        	</li>
-        	<li>
-          	<a href="">カジノ4</a>
-        	</li>
-        	<li>
-          	<a href="">カジノ5</a>
-        	</li>
-        	<li>
-          	<a href="">カジノ6</a>
-        	</li>
-        	<li>
-          	<a href="">カジノ7</a>
-        	</li>
-      	</ul>
-    	</nav>
+
+    <nav class="left1">
+      <ul class="left">
+      <p>カジノ一覧</p>
+      	<li>
+        	<a href="">カジノ1</a>
+      	</li>
+      	<li>
+        	<a href="">カジノ2</a>
+        </li>
+        <li>
+         	<a href="">カジノ3</a>
+      	</li>
+      	<li>
+        	<a href="">カジノ4</a>
+      	</li>
+        <li>
+        	<a href="">カジノ5</a>
+      	</li>
+      	<li>
+        	<a href="">カジノ6</a>
+        </li>
+        <li>
+        	<a href="">カジノ7</a>
+        </li>
+      </ul>
+    </nav>
+
     <div class="container">
       <%= yield %>
     </div>
+
   </body>
 </html>
