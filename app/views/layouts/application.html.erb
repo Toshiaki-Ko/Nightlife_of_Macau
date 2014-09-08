@@ -18,10 +18,10 @@
 
     <nav class="top">
       <ul class="nav-pull-right">
-      	<li><%= link_to "カジノの基礎知識",    '#' %></li>
-        <li><%= link_to "流れ",    '#' %></li>
-        <li><%= link_to "ルール", '#' %></li>
-        <li><%= link_to "カジノ一覧", '#' %></li>
+      	<li><%= link_to "カジノの基礎知識",'knowledge' %></li>
+        <li><%= link_to "流れ",    'overall_flow' %></li>
+        <li><%= link_to "ルール", 'game_type' %></li>
+        <li><%= link_to "カジノ一覧", 'casinolist' %></li>
       </ul>
     </nav>
 
@@ -36,31 +36,34 @@
             <p>カジノ一覧</p>
           </li>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to 'サンズ・マカオ', '/casinolist/1' %>
           </li>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to 'グランド・リスボン', '/casinolist/2' %>
           </li>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to 'スター・ワールド', '/casinolist/3' %>
           </li>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to 'ウィン・マカオ', '/casinolist/4' %>
           </li>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to 'MGMグランド・マカオ', '/casinolist/5' %>
           </li>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to 'ザ・ベネチアン・マカオ', '/casinolist/6' %>
           </li>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to 'ギャラクシー・マカオ', '/casinolist/7' %>
           </li>
-                    <li>
-            <a href="">ナビゲーション</a>
+          <li>
+            <%= link_to 'シティオブドリーム・マカオ', '/casinolist/8' %>
           </li>
-                    <li>
-            <a href="">ナビゲーション</a>
+          <li>
+            <%= link_to 'サンズ・コタイセントラル', '/casinolist/9' %>
+          </li>
+          <li>
+            <%= link_to 'オセアナス・カジノ・マカオ', '/casinolist/10' %>
           </li>
         </ul>
       </nav>

@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
-  root "casinos#home"
-  get 'casinos/about'
-  get 'casinos/help'
+  match '/home',    to: 'casinos#home',    via: 'get'
+  match '/casinolist',    to: 'casinos#casinolist',    via: 'get'
+  match '/casinolist/:id', to: 'casinos#show', via: 'get'
+  match '/game_type', to: 'games#game_type', via: 'get'
+  match '/game_type/:id', to: 'games#show', via: 'get'
+
+  match '/knowledge', to: 'casinos#knowledge', via: 'get'
+  match '/overall_flow', to: 'casinos#overall_flow', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
