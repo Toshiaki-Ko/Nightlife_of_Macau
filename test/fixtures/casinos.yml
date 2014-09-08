@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  table_number: 1
+  pachisuro_number: 1
+  minimum_rate: 1
+  address: MyString
+  phone_number: MyString
+  performance: MyString
+  food_service: MyString
+  shuttle_bus: MyString
+  freeroom_service: MyString
+
+two:
+  table_number: 1
+  pachisuro_number: 1
+  minimum_rate: 1
+  address: MyString
+  phone_number: MyString
+  performance: MyString
+  food_service: MyString
+  shuttle_bus: MyString
+  freeroom_service: MyString
