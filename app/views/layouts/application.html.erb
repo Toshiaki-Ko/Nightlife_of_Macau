@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>NightOfMacau</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag "application", media: "all",
+                                           "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
 
-<%= yield %>
+  <body>
+    <div class="logo">
+			<%= link_to image_tag("NightlifeinMacau.gif", alt: "Rails"), 'home'%>
+    </div>
 
-</body>
+    <nav class="top">
+      <ul class="nav-pull-right">
+      	<li><%= link_to "カジノの基礎知識",    '#' %></li>
+        <li><%= link_to "流れ",    '#' %></li>
+        <li><%= link_to "ルール", '#' %></li>
+        <li><%= link_to "カジノ一覧", '#' %></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div id="sub">
+      <nav id="local">
+        <ul>
+          <li>
+            <p>カジノ一覧</p>
+          </li>
+          <li>
+            <a href="">ナビゲーション</a>
+          </li>
+          <li>
+            <a href="">ナビゲーション</a>
+          </li>
+          <li>
+            <a href="">ナビゲーション</a>
+          </li>
+          <li>
+            <a href="">ナビゲーション</a>
+          </li>
+          <li>
+            <a href="">ナビゲーション</a>
+          </li>
+          <li>
+            <a href="">ナビゲーション</a>
+          </li>
+          <li>
+            <a href="">ナビゲーション</a>
+          </li>
+                    <li>
+            <a href="">ナビゲーション</a>
+          </li>
+                    <li>
+            <a href="">ナビゲーション</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
 </html>
