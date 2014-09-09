@@ -1,5 +1,6 @@
 Casino.create(
   :casino_name => "サンズ・マカオ",
+  :casino_name_chneng => "(金沙賭場，Sands Macau)",
   :table_number => 740,
   :pachisuro_number => 1250,
   :minimum_rate => "100HKD/20HKD",
@@ -9,11 +10,12 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/sands.png?_subject_uid=299871097&w=AADQFfFdnwfzKIiczbMuaWviZn2DQjjjWL23BqjrfvUWVA"
+  :image => "http://yahoo.jp/box/iu1STN"
   )
 
 Casino.create(
   :casino_name => "グランド・リスボン",
+  :casino_name_chneng => "(新葡京賭場，Grand Lisboa)",
   :table_number => 240,
   :pachisuro_number => 750,
   :minimum_rate => "100HKD/20HKD",
@@ -23,11 +25,12 @@ Casino.create(
   :food_service => "あり(ドリンク・軽食とも無料)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/grandlisboa.jpg?_subject_uid=299871097&w=AAB7CnHrakiF0vb60aYfqwz2UQZOUEbvPRSUisJI3e6kTg"
+  :image => "http://yahoo.jp/box/l_luYe"
   )
 
 Casino.create(
   :casino_name => "スター・ワールド",
+  :casino_name_chneng => "(星際，Star World)",
   :table_number => 290,
   :pachisuro_number => 370,
   :minimum_rate => "200HKD/20HKD",
@@ -37,11 +40,12 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/starworld.jpg?_subject_uid=299871097&w=AABOAubXVsDztnXW66LBoBEWY-Itrmtk6IZSNlWtutZYHA"
+  :image => "http://yahoo.jp/box/CAju0h"
   )
 
 Casino.create(
   :casino_name => "ウィン・マカオ",
+  :casino_name_chneng => "(永利，Wynn Macau)",
   :table_number => 420,
   :pachisuro_number => 1280,
   :minimum_rate => "300HKD/30HKD",
@@ -51,11 +55,12 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/wynn.jpg?_subject_uid=299871097&w=AAC6ze582VzM7hXvmhV4-wKDqmr1LLRE0HNsj-mQIaxJVA"
+  :image => "http://yahoo.jp/box/xc6h3r"
   )
 
 Casino.create(
   :casino_name => "MGMグランド・マカオ",
+  :casino_name_chneng => "(美高梅，MGM Grand Macau)",
   :table_number => 385,
   :pachisuro_number => 890,
   :minimum_rate => "300HKD/20HKD",
@@ -65,11 +70,12 @@ Casino.create(
   :food_service => "あり(ドリンクあり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/MGM.jpg?_subject_uid=299871097&w=AAD4v3ZGbxEpUkNhV1IZDiSyq7lUFlUn-sIjfm6bXotnxg"
+  :image => "http://yahoo.jp/box/w7tXGN"
   )
 
 Casino.create(
   :casino_name => "ザ・ベネチアン・マカオ",
+  :casino_name_chneng => "(威尼斯人，The Venetian Macau)",
   :table_number => 870,
   :pachisuro_number => 3700,
   :minimum_rate => "300HKD/50HKD",
@@ -79,11 +85,12 @@ Casino.create(
   :food_service => "あり(ドリンクあり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/venetian.jpg?_subject_uid=299871097&w=AAALK_AsffE8dOmWdBgXEHlbvayp4B07des3699lJtRtiQ"
+  :image => "http://yahoo.jp/box/4QIHIp"
   )
 
 Casino.create(
   :casino_name => "ギャラクシー・マカオ",
+  :casino_name_chneng => "(銀河，Galaxy Macau)",
   :table_number => 600,
   :pachisuro_number => 1200,
   :minimum_rate => "200HKD/20HKD",
@@ -93,11 +100,12 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/galaxy.jpg?_subject_uid=299871097&w=AABLV2FAlfqVAvZg86GzIWbTNKOdBgTTDMJIkRiEcpiaFA"
+  :image => "http://yahoo.jp/box/_lU-b5"
   )
 
 Casino.create(
   :casino_name => "シティオブドリーム・マカオ",
+  :casino_name_chneng => "(新濠天地，City of Dream Macau)",
   :table_number => 350,
   :pachisuro_number => 1110,
   :minimum_rate => "100HKD/20HKD",
@@ -107,11 +115,12 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/cityofdream.jpg?_subject_uid=299871097&w=AABLMbL347xgjMfq2s-4G_brSosKXoofqxWyBc0nSHlFig"
+  :image => "http://yahoo.jp/box/xf-S5O"
   )
 
 Casino.create(
   :casino_name => "サンズ・コタイセントラル",
+  :casino_name_chneng => "(金沙城，Sands Cotai Central)",
   :table_number => 300,
   :pachisuro_number => 2000,
   :minimum_rate => "50HKD/20HKD",
@@ -121,11 +130,12 @@ Casino.create(
   :food_service => "あり(水のみ)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/sandscotaicentral.jpg?_subject_uid=299871097&w=AACosHV8W5xx9Ds839nO_UwwqRCt_aQyyWPwsbqcusE7BQ"
+  :image => "http://yahoo.jp/box/XGuQMw"
   )
 
 Casino.create(
   :casino_name => "オセアナス・カジノ・マカオ",
+  :casino_name_chneng => "(海立方，Oceanus)",
   :table_number => 260,
   :pachisuro_number => 560,
   :minimum_rate => "50HKD/10HKD",
@@ -135,7 +145,7 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "なし",
-  :image => "https://dl-web.dropbox.com/get/NightofMacau/oceanus.jpg?_subject_uid=299871097&w=AAB15CjlQ-s_o6rM5VFTwUSaKhK-kWu_YQvjwyoM3BVyZA"
+  :image => "http://yahoo.jp/box/YZEg2a"
   )
 
 # This file should contain all the record creation needed to seed the database with its default values.

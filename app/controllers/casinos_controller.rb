@@ -9,9 +9,6 @@ class CasinosController < ApplicationController
   def casinolist
   end
 
-  def about
-  end
-
   def knowledge
   end
 

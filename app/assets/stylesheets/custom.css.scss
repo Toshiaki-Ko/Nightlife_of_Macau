@@ -45,6 +45,7 @@ div#sub nav#local ul {
   border: 1px #ffb366 solid;
   padding-right: 40px;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 div#sub nav#local p {
@@ -60,9 +61,9 @@ div#sub nav#local li {
 }
 
   .container {
+  border: 1px #ffb366 solid;
   margin-left: 30px;
   clear:both;
-  border: 1px #ffb366 solid;
   position: relative;
   top: 17px;
   left: 259px;
@@ -70,8 +71,22 @@ div#sub nav#local li {
   padding: 20px;
   color: white;
   background-color: rgba(0,0,0,0.7);
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  border-radius: 10px;
  }
+
+   .container #show_data {
+    width: 400px;
+    text-align:center;
+  }
+
+  .container #show_image {
+  border: 1px #ffd366 solid;
+  width: 350px;
+  margin-left: 450px;
+  margin-top: -700px;
+  margin-bottom: 450px;
+  }
 
   .container h2 {
   color: #FFD700;
@@ -85,3 +100,10 @@ div#sub nav#local li {
   color: #00ced1;
   }
 
+  .container .show h1{
+    color: red;
+  }
+
+  .container .show h2{
+    color: #FFD700;
+  }

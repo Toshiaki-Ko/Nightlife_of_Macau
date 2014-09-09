@@ -2,6 +2,7 @@ class CreateCasinos < ActiveRecord::Migration
   def change
     create_table :casinos do |t|
       t.string :casino_name
+      t.string :casino_name_chneng
       t.integer :table_number
       t.integer :pachisuro_number
       t.text   :introduction

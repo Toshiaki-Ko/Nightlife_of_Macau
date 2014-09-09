@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20140908065340) do
 
   create_table "casinos", force: true do |t|
     t.string   "casino_name"
+    t.string   "casino_name_chneng"
     t.integer  "table_number"
     t.integer  "pachisuro_number"
     t.text     "introduction"

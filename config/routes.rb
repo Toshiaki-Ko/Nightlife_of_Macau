@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 #  match '/home',    to: 'casinos#home',    via: 'get'
   match '/casinolist',    to: 'casinos#casinolist',    via: 'get'
-  match '/casinolist/:id', to: 'casinos#casino_data_show', via: 'get'
+  match '/casinolist/:id', to: 'casinos#casino_data_show', via: 'get', as: 'casino'
   match '/game_type', to: 'games#game_type', via: 'get'
   match '/game_type/:id', to: 'games#show', via: 'get'
 
