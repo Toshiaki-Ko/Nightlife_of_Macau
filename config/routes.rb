@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  match '/home',    to: 'casinos#home',    via: 'get'
+#  match '/home',    to: 'casinos#home',    via: 'get'
   match '/casinolist',    to: 'casinos#casinolist',    via: 'get'
   match '/casinolist/:id', to: 'casinos#casino_data_show', via: 'get'
   match '/game_type', to: 'games#game_type', via: 'get'
@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'casinos#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
