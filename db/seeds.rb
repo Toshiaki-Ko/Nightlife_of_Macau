@@ -8,7 +8,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/sands.png?_subject_uid=299871097&w=AADQFfFdnwfzKIiczbMuaWviZn2DQjjjWL23BqjrfvUWVA"
   )
 
 Casino.create(
@@ -21,7 +22,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(ドリンク・軽食とも無料)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/grandlisboa.jpg?_subject_uid=299871097&w=AAB7CnHrakiF0vb60aYfqwz2UQZOUEbvPRSUisJI3e6kTg"
   )
 
 Casino.create(
@@ -34,7 +36,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/starworld.jpg?_subject_uid=299871097&w=AABOAubXVsDztnXW66LBoBEWY-Itrmtk6IZSNlWtutZYHA"
   )
 
 Casino.create(
@@ -47,7 +50,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/wynn.jpg?_subject_uid=299871097&w=AAC6ze582VzM7hXvmhV4-wKDqmr1LLRE0HNsj-mQIaxJVA"
   )
 
 Casino.create(
@@ -60,7 +64,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(ドリンクあり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/MGM.jpg?_subject_uid=299871097&w=AAD4v3ZGbxEpUkNhV1IZDiSyq7lUFlUn-sIjfm6bXotnxg"
   )
 
 Casino.create(
@@ -73,7 +78,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(ドリンクあり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/venetian.jpg?_subject_uid=299871097&w=AAALK_AsffE8dOmWdBgXEHlbvayp4B07des3699lJtRtiQ"
   )
 
 Casino.create(
@@ -86,7 +92,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/galaxy.jpg?_subject_uid=299871097&w=AABLV2FAlfqVAvZg86GzIWbTNKOdBgTTDMJIkRiEcpiaFA"
   )
 
 Casino.create(
@@ -99,7 +106,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/cityofdream.jpg?_subject_uid=299871097&w=AABLMbL347xgjMfq2s-4G_brSosKXoofqxWyBc0nSHlFig"
   )
 
 Casino.create(
@@ -112,7 +120,8 @@ Casino.create(
   :performance => "あり",
   :food_service => "あり(水のみ)",
   :shuttle_bus => "あり",
-  :freeroom_service => "あり(条件あり)"
+  :freeroom_service => "あり(条件あり)",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/sandscotaicentral.jpg?_subject_uid=299871097&w=AACosHV8W5xx9Ds839nO_UwwqRCt_aQyyWPwsbqcusE7BQ"
   )
 
 Casino.create(
@@ -125,7 +134,8 @@ Casino.create(
   :performance => "あり(時期による)",
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
-  :freeroom_service => "なし"
+  :freeroom_service => "なし",
+  :image => "https://dl-web.dropbox.com/get/NightofMacau/oceanus.jpg?_subject_uid=299871097&w=AAB15CjlQ-s_o6rM5VFTwUSaKhK-kWu_YQvjwyoM3BVyZA"
   )
 
 # This file should contain all the record creation needed to seed the database with its default values.

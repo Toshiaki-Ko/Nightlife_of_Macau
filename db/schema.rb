@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20140908065340) do
     t.string   "food_service"
     t.string   "shuttle_bus"
     t.string   "freeroom_service"
-    t.binary   "image"
+    t.string   "image"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

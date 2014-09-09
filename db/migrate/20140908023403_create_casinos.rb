@@ -12,7 +12,7 @@ class CreateCasinos < ActiveRecord::Migration
       t.string :food_service
       t.string :shuttle_bus
       t.string :freeroom_service
-      t.binary :image
+      t.string :image
 
       t.timestamps
     end

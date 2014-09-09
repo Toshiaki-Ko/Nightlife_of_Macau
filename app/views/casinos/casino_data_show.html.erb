@@ -1,3 +1,4 @@
+<div class="show">
 <table class="attr">
   <tr>
     <th>カジノ詳細</th>
@@ -12,8 +13,9 @@
       <%= @casino.food_service %><br>
       <%= @casino.shuttle_bus %><br>
       <%= @casino.freeroom_service %><br>
-      <%= image_tag 'http://www.rubylife.jp/rails/template/img/p8-4.png' %>
+      <%= image_tag @casino.image, :size => "350x250" %><br>
 
     </td>
   </tr>
 </table>
+</div>
