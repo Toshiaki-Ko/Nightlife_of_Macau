@@ -1,0 +1,17 @@
+<% @games = Game.all %>
+<% @games.each do |game| %>
+<table class="table-class", border="3">
+<tr>
+
+<td class="td-class">
+<%= link_to image_tag(game.game_image, :size => '290x200'),
+ game_path(:id => game.id) %>
+ </td>
+
+<td>
+  名称: <%= link_to game.name , game_path(:id => game.id) %>
+</td>
+
+</tr>
+</table>
+<% end %>

@@ -13,15 +13,15 @@
 
   <body>
     <div class="logo">
-			<%= link_to image_tag("NightlifeinMacau.gif", alt: "Rails"), 'home'%>
+			<%= link_to image_tag("NightlifeinMacau.gif", alt: "Rails"), root_path %>
     </div>
 
     <nav class="top">
       <ul class="nav-pull-right">
-      	<li><%= link_to "カジノの基礎知識",    '#' %></li>
-        <li><%= link_to "流れ",    '#' %></li>
-        <li><%= link_to "ルール", '#' %></li>
-        <li><%= link_to "カジノ一覧", '#' %></li>
+      	<li><%= link_to "カジノの基礎知識",'/knowledge' %></li>
+        <li><%= link_to "入場から換金まで",    '/overall_flow' %></li>
+        <li><%= link_to "種類&ルール", '/game_type' %></li>
+        <li><%= link_to "カジノ一覧", '/casinolist' %></li>
       </ul>
     </nav>
 
@@ -35,34 +35,14 @@
           <li>
             <p>カジノ一覧</p>
           </li>
+          <% @casinos = Casino.all %>
+          <% @casinos.each do |casino| %>
           <li>
-            <a href="">ナビゲーション</a>
+            <%= link_to casino.casino_name , casino_path(:id => casino.id) %>
           </li>
-          <li>
-            <a href="">ナビゲーション</a>
-          </li>
-          <li>
-            <a href="">ナビゲーション</a>
-          </li>
-          <li>
-            <a href="">ナビゲーション</a>
-          </li>
-          <li>
-            <a href="">ナビゲーション</a>
-          </li>
-          <li>
-            <a href="">ナビゲーション</a>
-          </li>
-          <li>
-            <a href="">ナビゲーション</a>
-          </li>
-                    <li>
-            <a href="">ナビゲーション</a>
-          </li>
-                    <li>
-            <a href="">ナビゲーション</a>
-          </li>
+          <% end %>
         </ul>
+          <a href="http://info.flagcounter.com/cUUN"><img src="http://s08.flagcounter.com/count/cUUN/bg_FFFFFF/txt_0858C2/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/" alt="Free counters!" border="0"></a>
       </nav>
     </div>
   </body>
