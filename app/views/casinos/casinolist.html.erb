@@ -1,6 +1,6 @@
 <% @casinos = Casino.all %>
 <% @casinos.each do |casino| %>
-<table class="table-class", border="3">
+<table class="table-class", border="0">
 <tr>
 
 <td class="td-class">
@@ -9,7 +9,10 @@
  </td>
 
 <td>
-  名称: <%= link_to casino.casino_name , casino_path(:id => casino.id) %>
+  名称: <%= link_to casino.casino_name , casino_path(:id => casino.id) %><br>
+  <%= casino.casino_name_chneng %><br>
+  紹介:<br>
+  <%= cut_off(casino.introduction, 100) %><%= link_to "[詳しくはこちら]" , casino_path(:id => casino.id) %>
 </td>
 
 </tr>

@@ -24,14 +24,18 @@
 <br>
       無料宿泊サービス:<br>
       <%= @casino.freeroom_service %><br>
-      <br> 
+<br> 
       住所:<br>
       <%= @casino.address %><br>
 <br>
       電話番号:<br>
       <%= @casino.phone_number %><br>
+
   </div>
   <div id="show_image" >
     <%= image_tag @casino.image, :size => "350x250" %>
   </div>
 </div>
+<br> 
+紹介:<br>
+<%= @casino.introduction %><br>
