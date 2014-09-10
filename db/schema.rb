@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20140908065340) do
   create_table "games", force: true do |t|
     t.string   "name"
     t.text     "rule"
+    t.string   "game_image"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

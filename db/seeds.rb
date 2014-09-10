@@ -10,7 +10,8 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/iu1STN"
+  :image => "http://yahoo.jp/box/iu1STN",
+  :introduction => ""
   )
 
 Casino.create(
@@ -25,7 +26,8 @@ Casino.create(
   :food_service => "あり(ドリンク・軽食とも無料)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/l_luYe"
+  :image => "http://yahoo.jp/box/l_luYe",
+  :introduction => ""
   )
 
 Casino.create(
@@ -40,7 +42,8 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/CAju0h"
+  :image => "http://yahoo.jp/box/CAju0h",
+  :introduction => ""
   )
 
 Casino.create(
@@ -55,7 +58,8 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/xc6h3r"
+  :image => "http://yahoo.jp/box/xc6h3r",
+  :introduction => ""
   )
 
 Casino.create(
@@ -70,7 +74,8 @@ Casino.create(
   :food_service => "あり(ドリンクあり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/w7tXGN"
+  :image => "http://yahoo.jp/box/w7tXGN",
+  :introduction => ""
   )
 
 Casino.create(
@@ -85,7 +90,8 @@ Casino.create(
   :food_service => "あり(ドリンクあり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/4QIHIp"
+  :image => "http://yahoo.jp/box/4QIHIp",
+  :introduction => ""
   )
 
 Casino.create(
@@ -100,7 +106,8 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/_lU-b5"
+  :image => "http://yahoo.jp/box/_lU-b5",
+  :introduction => ""
   )
 
 Casino.create(
@@ -115,7 +122,8 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/xf-S5O"
+  :image => "http://yahoo.jp/box/xf-S5O",
+  :introduction => ""
   )
 
 Casino.create(
@@ -130,7 +138,8 @@ Casino.create(
   :food_service => "あり(水のみ)",
   :shuttle_bus => "あり",
   :freeroom_service => "あり(条件あり)",
-  :image => "http://yahoo.jp/box/XGuQMw"
+  :image => "http://yahoo.jp/box/XGuQMw",
+  :introduction => ""
   )
 
 Casino.create(
@@ -145,9 +154,105 @@ Casino.create(
   :food_service => "あり(条件あり)",
   :shuttle_bus => "あり",
   :freeroom_service => "なし",
-  :image => "http://yahoo.jp/box/YZEg2a"
+  :image => "http://yahoo.jp/box/YZEg2a",
+  :introduction => ""
   )
 
+Casino.create(
+  :casino_name => "バビロン・カジノ",
+  :casino_name_chneng => "(巴比倫娛樂場，Babylon Casino)",
+  :table_number => 23,
+  :pachisuro_number => 78,
+  :minimum_rate => "50HKD/10HKD",
+  :address => "澳門漁人碼頭",
+  :phone_number => "(853)2823-2288",
+  :performance => "なし",
+  :food_service => "あり(条件あり)",
+  :shuttle_bus => "あり",
+  :freeroom_service => "なし",
+  :image => "",
+  :introduction => ""
+  )
+
+Casino.create(
+  :casino_name => "ザ・プラザ・マカオ",
+  :casino_name_chneng => "(澳門百利宮，The Plaza Macao)",
+  :table_number => 175,
+  :pachisuro_number => 180,
+  :minimum_rate => "10HKD/20HKD",
+  :address => "澳門氹仔望德聖母灣大馬路,四季酒店",
+  :phone_number => "(853)2881-8888",
+  :performance => "あり(時期による)",
+  :food_service => "あり(条件あり)",
+  :shuttle_bus => "あり",
+  :freeroom_service => "あり(条件あり)",
+  :image => "",
+  :introduction => ""
+  )
+
+Casino.create(
+  :casino_name => "ソフィテルマカオ アット ポンテ16",
+  :casino_name_chneng => "(十六浦，Sofitel Macau At Ponte 16)",
+  :table_number => 92,
+  :pachisuro_number => 300,
+  :minimum_rate => "150HKD/20HKD",
+  :address => "澳門火船頭街及巴素打爾古街內港12A號",
+  :phone_number => "(853)8861-0016",
+  :performance => "あり(時期による)",
+  :food_service => "あり(ノンアルコールのみ)",
+  :shuttle_bus => "あり",
+  :freeroom_service => "あり(条件あり)",
+  :image => "",
+  :introduction => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
+
+Game.create(
+  :name => "",
+  :rule => "",
+  :game_image => ""
+  )
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #

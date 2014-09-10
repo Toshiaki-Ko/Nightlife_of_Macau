@@ -20,7 +20,7 @@ a:hover { color: #FFFF00; font-weight:bold; }
 }
 
 .nav-pull-right li{
-  margin-left: 10px;
+  margin-left: 30px;
   display: inline-block;
   position: relative;
   background-color:#000000;
@@ -33,7 +33,7 @@ a:hover { color: #FFFF00; font-weight:bold; }
 
 div#sub nav#local{
   position:fixed;
-  top:195px; 
+  top:190px; 
   left:20px; 
   text-align:center;
   color: red;
@@ -62,12 +62,12 @@ div#sub nav#local li {
 
   .container {
   border: 1px #ffb366 solid;
-  margin-left: 30px;
+  margin-left: 60px;
   clear:both;
   position: relative;
   top: 17px;
   left: 259px;
-  width: 820px;
+  width: 850px;
   padding: 20px;
   color: white;
   background-color: rgba(0,0,0,0.7);
