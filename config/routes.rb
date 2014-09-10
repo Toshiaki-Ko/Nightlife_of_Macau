@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   match '/casinolist',    to: 'casinos#casinolist',    via: 'get'
   match '/casinolist/:id', to: 'casinos#casino_data_show', via: 'get', as: 'casino'
   match '/game_type', to: 'games#game_type', via: 'get'
-  match '/game_type/:id', to: 'games#show', via: 'get'
+  match '/game_type/:id', to: 'games#game_data_show', via: 'get', as: 'game'
 
   match '/knowledge', to: 'casinos#knowledge', via: 'get'
   match '/overall_flow', to: 'casinos#overall_flow', via: 'get'
