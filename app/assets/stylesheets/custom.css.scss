@@ -33,7 +33,7 @@ a:hover { color: #FFFF00; font-weight:bold; }
 
 div#sub nav#local{
   position:fixed;
-  top:190px; 
+  top:193px; 
   left:30px; 
   text-align:center;
   color: red;
@@ -121,4 +121,12 @@ div#sub nav#local li {
 
   .container .home {
   text-align: center;
+  }
+
+  .container .introduction {
+   width: 390px;
+   top: -10000px;
+   margin-left: 440px;
+   margin-bottom: 140px;
+   margin-top: -420px;
   }

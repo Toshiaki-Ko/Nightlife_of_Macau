@@ -1,6 +1,6 @@
 <% @games = Game.all %>
 <% @games.each do |game| %>
-<table class="table-class", border="3">
+<table class="table-class">
 <tr>
 
 <td class="td-class">
@@ -9,7 +9,8 @@
  </td>
 
 <td>
-  名称: <%= link_to game.name , game_path(:id => game.id) %>
+  名称: <%= link_to game.name , game_path(:id => game.id) %><br>
+  難易度: <%= game.level %>
 </td>
 
 </tr>
