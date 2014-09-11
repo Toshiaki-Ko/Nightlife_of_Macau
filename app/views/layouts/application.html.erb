@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>NightOfMacau</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag "application", media: "all",
+                                           "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
 
-<%= yield %>
+  <body>
+    <div class="logo">
+			<%= link_to image_tag("NightlifeinMacau.gif", alt: "Rails"), root_path %>
+    </div>
 
-</body>
+    <nav class="top">
+      <ul class="nav-pull-right">
+      	<li><%= link_to "カジノの基礎知識",'/knowledge' %></li>
+        <li><%= link_to "入場から換金まで",    '/overall_flow' %></li>
+        <li><%= link_to "種類&ルール", '/game_type' %></li>
+        <li><%= link_to "カジノ一覧", '/casinolist' %></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div id="sub">
+      <nav id="local">
+        <ul>
+          <li>
+            <p>カジノ一覧</p>
+          </li>
+          <% @casinos = Casino.all %>
+          <% @casinos.each do |casino| %>
+          <li>
+            <%= link_to casino.casino_name , casino_path(:id => casino.id) %>
+          </li>
+          <% end %>
+        </ul>
+          <a href="http://info.flagcounter.com/cUUN"><img src="http://s08.flagcounter.com/count/cUUN/bg_FFFFFF/txt_0858C2/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/" alt="Free counters!" border="0"></a>
+      </nav>
+    </div>
+  </body>
 </html>

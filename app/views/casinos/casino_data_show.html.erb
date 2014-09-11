@@ -1,0 +1,43 @@
+<div class="show">
+  <div id= "show_data">
+  <h2>
+    <%= @casino.casino_name %><br>
+    <%= @casino.casino_name_chneng %>
+  </h2>
+      テーブルの数:<br>
+      約 <%= @casino.table_number %> 台<br>
+<br>
+      スロットの数:<br>
+      約 <%= @casino.pachisuro_number %> 台<br>
+<br>
+      ミニマムレート(テーブル/スロット):<br>
+      約 <%= @casino.minimum_rate %><br>
+<br>
+      無料パフォーマンス:<br>
+    <%= @casino.performance %><br>
+<br>
+      軽食サービス:<br>
+      <%= @casino.food_service %><br>
+<br>
+      シャトルバスサービス:<br>
+      <%= @casino.shuttle_bus %><br>
+<br>
+      無料宿泊サービス:<br>
+      <%= @casino.freeroom_service %><br>
+<br> 
+      住所:<br>
+      <%= @casino.address %><br>
+<br>
+      電話番号:<br>
+      <%= @casino.phone_number %><br>
+
+  </div>
+  <div id="show_image" >
+    <%= image_tag @casino.image, :size => "350x250" %>
+  </div>
+</div>
+<br> 
+<div class="introduction">
+  紹介:<br>
+  <%= @casino.introduction %><br>
+</div>
